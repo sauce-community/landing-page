@@ -1,8 +1,4 @@
-﻿/*!
-* Bootstrap v4.1.0 (https://getbootstrap.com) 
-* Copyright 2011-2017 The Bootstrap Authors 
-* Copyright 2011-2017 Twitter, Inc. 
-* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
+﻿
 :root {
   --blue: #2979ff;
   --indigo: #3d5afe;
@@ -3328,7 +3324,7 @@ input[type="button"].btn-block {
       flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #3b1807;
+  background-color: #220f06;
   background-clip: border-box;
   border: 0px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.3rem; }
@@ -7336,7 +7332,7 @@ a.text-light:hover, a.text-light:focus {
   color: #cfd6db !important; }
 
 .text-dark {
-  color: #3b1807 !important; }
+  color: #220f06 !important; }
 
 a.text-dark:hover, a.text-dark:focus {
   color: black !important; }
@@ -7563,7 +7559,7 @@ body {
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%); }
     .smart-scroll.scrolling.up {
-      background-color: #3b1807;
+      background-color: #220f06;
       -webkit-transform: translateY(0);
               transform: translateY(0);
       transition: all .3s ease-out; }

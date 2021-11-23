@@ -46,16 +46,13 @@ html {
   .bg-drip-ftr {
     background-image: url("img/sauce-btm.png")!important; 
     background-size: auto;
-    
-    
-    
-    
+
   }
   
   .bg-drip {
     background-image: url("img/sauce.png");
     background-size: auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     
   }
 

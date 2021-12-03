@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#">Platforms</a>
+                        <a class="nav-link page-scroll" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#">Team</a>
@@ -74,7 +74,7 @@
                 
             </div>
             <div class="col-md-5 mb-6"> 
-                <img src="img/conveyer_donuts.svg" class="img" alt="hero"/>  
+                <img src="img/bottle.png" class="img" alt="hero"/>  
             </div>
         </div>
         <div class="row py-4 pt-1 pricing-table">
@@ -116,13 +116,13 @@
                     </div>
                 </div>
             </div> 
-
+        
         </div>
     </div>
 </section>
 
-<!-- features section -->
-<section class="pt-6 pb-7" id="features">
+<!-- about section -->
+<section class="pt-5 pb-7" id="about">
     <div class="container">
         <div class="row">
             <div class="col-md-6 mx-auto text-center">
@@ -133,19 +133,21 @@
             <div class="col-md-10 mx-auto">
                 <div class="row pricing-table">
                     <div class="col-md-6 box">
-                        <h5 class="text-dark">A Decentralized Incubator!</h5>
+                        <i class="fas fa-lightbulb mt-2 text-dark" style="font-size: 2em;" ></i>
+                        <h5 class="text-dark"> A Decentralized Incubator!</h5>
                         <p class="text-muted">We leverage our community to crowdsource good ideas. Our platform approaches the problem of incentivizing community funding and collaborative development to help pre-seed ventures reach their milestones. 
                         </p>
                         <p class="text-muted">We provide assistance in the form of specialized team building tools, open-source resources, funding opportunities, and access to a community of top talent.</p>
                     </div>
                     <div class="col-md-6 box">
-                        
+                        <i class="fas fa-rocket mt-2 text-dark" style="font-size: 2em;"></i>
                         <h5 class="text-dark">A Project Accelerator!</h5>
                         <p class="text-muted">Incubated projects get access to our community of talent and resources. While <b>financial</b> capital is vital for growth, <b>human</b> and <b>social</b> capital are often the backbone upon which successful ventures are built.</p>
                             <p class="text-muted"> We collectivise and democratise these three key aspects into an accessible launchpad to bring ideas to life. 
                             </p>
                     </div>
-                    <div class="col-md-6 box">
+                    <div class="col-md-6 box" >
+                        <i class="fas fa-graduation-cap mt-2 text-dark" style="font-size: 2em;"></i>
                         <h5 class="text-dark">An Apprenticeship Program!</h5>
                         <p class="text-muted">We pair new and motivated web3 developers with established software engineers to contribute to real world projects.
                         </p>
@@ -153,18 +155,23 @@
                         </p>
                     </div>
                     <div class="col-md-6 box">
+                        <i class="fas fa-globe-americas mt-2 text-dark" style="font-size: 2em;"></i>
+
+
                         <h5 class="text-dark">A Social Impact Fund!
                         </h5>
                         <p class="text-muted">We value people making real changes in their communities and prioritize supporting projects addressing quality of life issues.</p>
                         <p class="text-muted">Impact driven projects often lack the incentives to bring attention to the problems they address. Our approach harnesses the strength of the web3 community to empower social causes to bring about real change.</p>
                     </div>
                     <div class="col-md-6 box">
+                        <i class="fas fa-balance-scale mt-2 text-dark" style="font-size: 2em;"></i>
                         <h5 class="text-dark">A Decentralized Autonamous Organization!
                         </h5>
                         <p class="text-muted">We put power in the hands of our community members. Our internal governance protocol allows users to steer the direction of the platform, and decide what projects we incubate.</p>
-                        <p class="text-muted">blah blah blah centralized = bad decentralized = good</p>
+                        
                     </div>
-                    <div class="col-md-6 box">
+                    <div class="col-md-6 box" >
+                        <i class="fas fa-users mt-2 text-dark " style="font-size: 2em;"></i>
                         <h5 class="text-dark">An Open Sauce Society!
                         </h5>
                         <p class="text-muted">We focus on bringing people together to make something great while providing the resources to jumpstart and accelerate projects from concept to reality.</p>
@@ -176,18 +183,75 @@
     </div>
 </section>
 
+    <!--contact-->
+    <div class="row mt-1 mb-7">
+        <div class="col-md-6 mx-auto text-center">
+            <h3 class="text-dark">Have a question?</h3>
+            <button href="#" class="trigger btn btn-primary" id="contact-btn"> <h3 class=" text-center mt-2 mb-2">Contact us</h3></button>
+        </div>
+    </div>
 
+    <div class="modal">
+        <div class="modal-content" id="contact"><span class="btn-close">&times;</span>
+            <h1 class="text-dark text-center mt-6">Contact Us</h1>
+
+            <form id="form" class="topBefore">
+                    
+                    <input id="name" type="text" placeholder="NAME">
+                    <input id="email" type="text" placeholder="E-MAIL">
+                    <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+            <input id="submit" type="submit" value="GO!">
+            
+            </form>
+        </div>
+    </div>
 
 <!--footer-->
 <footer class="py-4 bg-drip-ftr"> 
     
     <div class="container mt-7">
-        <div class="row mt-1 mb-7">
-            <div class="col-md-6 mx-auto text-center">
-                <h3 class="text-dark">Have a question?</h3>
-                <a href="#" class="btn btn-primary"> <h3 class=" text-center mt-2 mb-2">Contact us</h3></a>
+        <div class="row pt-1  mb-7 pricing-table">
+            <div class="col-12 mx-auto">
+                <div class="card-deck pricing-table">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-red mb-0 pt-2">1,500</h2>
+                            <h3 class="card-title pt-3">Community Members</h3>
+                            <a href="#" class="btn btn-primary">
+                                Join Community
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-red mb-0 pt-2">69</h2>
+                            <h3 class="card-title  pt-3">Funded <br> Projects </h3>
+                            <a href="#" class="btn btn-primary">
+                                See Projects
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-red mb-0 pt-2">420</h2>
+                            <h3 class="card-title pt-3">Active Developers</h3>
+                            <a href="#" class="btn btn-primary">
+                                Get Incubated
+                            </a>
+                        </div> 
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title text-red mb-0 pt-2">21</h2>
+                            <h3 class="card-title pt-3">Understaffed Projects</h3>
+                            <a href="#" class="btn btn-primary">
+                                Contribute
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </div> 
         <div class="row">
             <div class="col-sm-4 mr-auto">
                 <h5>About Sauce Dao</h5>
@@ -195,7 +259,7 @@
                     Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam explabo.</p>
                 <ul class="list-inline social social-sm">
                     <li class="list-inline-item">
-                        <a href=""><i class="fa fa-telegram"></i></a>
+                        <a href=""><i class="fa fa-discord"></i></a>
                     </li>
                     <li class="list-inline-item">
                         <a href=""><i class="fa fa-twitter"></i></a>
@@ -251,6 +315,84 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="https://kit.fontawesome.com/2368c413c3.js" crossorigin="anonymous"></script>
 <script src="scripts.js"></script>
+<script>
+    const triggers = document.getElementsByClassName('trigger');
+ const triggerArray = Array.from(triggers).entries();
+ const modals = document.getElementsByClassName('modal');
+ const closeButtons = document.getElementsByClassName('btn-close');
+ 
+ for (let [index, trigger] of triggerArray) {
+   const toggleModal = () => {
+     modals[index].classList.toggle('show-modal');
+   }
+   trigger.addEventListener("click", toggleModal);
+   closeButtons[index].addEventListener("click", toggleModal);
+ }
+ $(function () {
+
+// init feather icons
+feather.replace();
+
+// init tooltip & popovers
+$('[data-toggle="tooltip"]').tooltip();
+$('[data-toggle="popover"]').popover();
+
+//page scroll
+$('a.page-scroll').bind('click', function (event) {
+    var $anchor = $(this);
+    $('html, body').stop().animate({
+        scrollTop: $($anchor.attr('href')).offset().top - 20
+    }, 1000);
+    event.preventDefault();
+});
+
+// slick slider
+$('.slick-about').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    dots: true,
+    arrows: false
+});
+
+//toggle scroll menu
+var scrollTop = 0;
+$(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+    //adjust menu background
+    if (scroll > 80) {
+        if (scroll > scrollTop) {
+            $('.smart-scroll').addClass('scrolling').removeClass('up');
+        } else {
+            $('.smart-scroll').addClass('up');
+        }
+    } else {
+        // remove if scroll = scrollTop
+        $('.smart-scroll').removeClass('scrolling').removeClass('up');
+    }
+
+    scrollTop = scroll;
+
+    // adjust scroll to top
+    if (scroll >= 600) {
+        $('.scroll-top').addClass('active');
+    } else {
+        $('.scroll-top').removeClass('active');
+    }
+    return false;
+});
+
+// scroll top top
+$('.scroll-top').click(function () {
+    $('html, body').stop().animate({
+        scrollTop: 0
+    }, 1000);
+});
+
+});
+     </script>
 </body>
 </html>

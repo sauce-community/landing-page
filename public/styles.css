@@ -7787,3 +7787,6 @@ footer h5 {
     .icon-box .icon-box-inner.small-xs {
       padding: 1rem; }
 
+::-webkit-scrollbar {
+    display: none;
+}

@@ -5,7 +5,7 @@
 const express = require('express');
 
 //Routes
-const connections = require('./routes');
+const connectionsRoute = require('./routes/integrations');
 
 // Express
 const app = express();
@@ -14,7 +14,7 @@ const app = express();
 const router = express.Router();
 
 // Use connections API
-
+router.use("/api/v1/", connections);
 
 // Default listening port
 const port = 6969;

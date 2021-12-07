@@ -44,13 +44,13 @@ html {
 }
   
   .bg-drip-ftr {
-    background-image: url("img/sauce-btm.png")!important; 
+    background-image: url("../images/sauce-btm.png")!important; 
     background-size: auto;
 
   }
   
   .bg-drip {
-    background-image: url("img/sauce.png");
+    background-image: url("../images/sauce.png");
     background-size: auto;
     background-repeat: repeat-x;
     
@@ -7787,3 +7787,6 @@ footer h5 {
     .icon-box .icon-box-inner.small-xs {
       padding: 1rem; }
 
+::-webkit-scrollbar {
+    display: none;
+}

@@ -3323,8 +3323,9 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #220f06;
   background-clip: border-box;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border: 0px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.3rem; }
+  border-radius: 3rem; }
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
@@ -7789,4 +7790,10 @@ footer h5 {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+.launch-app-button {
+  color: black;
+  background-color: white;
+  border: none;
 }

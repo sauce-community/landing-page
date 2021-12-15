@@ -6016,7 +6016,7 @@ a:not([href]):not([tabindex]):focus {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.5rem;
-  background:#ffefd565;
+  background:#ffefd5;
   border: solid 1px;
   border-color:#ffefd570;
   border-radius: 1.2em;

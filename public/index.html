@@ -339,17 +339,17 @@
                         <p class="saucedao center-mobile text-dark">Whether you're a project leader looking to take the next step, a developer eager to contribute to innovative technologies, or a blockchain novice looking for a community to learn and grow with, get in touch with us.</p>
                     </div>
                     <div class="form-wrapper col ">
-                        <div class="form">
+                        <form class="form" action="https://formspree.io/f/xayvypgz" method="post">
                        
                         
-                        <input class="message" placeholder="Name / Project " rows="1"></input>
-                        <input class="message" placeholder="Email" rows="1"></input>
-                        <input class="message" placeholder="Socials" rows="1"></input>
-                        <textarea class="message" placeholder="Message" rows="1"></textarea>
-                        <button class="submit"> 
+                        <input class="message" placeholder="Name / Project " rows="1" name="name" type="text" required></input>
+                        <input class="message" placeholder="Email" rows="1" name="email" type="text" required></input>
+                        <input class="message" placeholder="Socials" rows="1" name="socials" type="text" required></input>
+                        <textarea class="message" placeholder="Message" rows="1" name="message" type="text" required></textarea>
+                        <button type="submit" class="submit" value="submit"> 
                             <div class="inner ">Submit.</div>
                         </button>
-                        </div>
+                    </form>
                     </div>
                 </div>
             </div>    
@@ -550,20 +550,6 @@
         </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
     <!--scroll to top-->
     <div class="scroll-top">
         <i class="fa fa-angle-up" aria-hidden="true"></i>
@@ -702,12 +688,6 @@ $(document).on("click", e => {
  };
 });
 
-
     </script>
-    
-
-
-
 </body>
-
 </html>

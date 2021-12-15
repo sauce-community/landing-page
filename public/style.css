@@ -7116,7 +7116,7 @@ footer ul > li {
   background: transparent;
   outline: none;
   user-select: none;
-  cursor: not-allowed;
+  cursor: pointer;
   display: block;
   color: #fff;
   border: 0;

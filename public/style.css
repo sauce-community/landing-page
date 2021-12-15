@@ -15,6 +15,7 @@ body {
   line-height: 1;
   height: 100%;
   overflow: scroll;
+  overflow-x: hidden !important;
   
  
 }
@@ -2068,10 +2069,12 @@ h6 {
 
 .container {
   width: 100%;
+  max-width: 100% !important;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  overflow-x: hidden !important;
 }
 @media (min-width: 576px) {
   .container {
@@ -6377,6 +6380,7 @@ fieldset:disabled a.btn {
   position: absolute;
   left: 0;
   right: 0;
+  overflow-x: hidden !important;
   
      
 }

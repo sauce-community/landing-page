@@ -40,27 +40,51 @@
         <div class="container">
 			<nav>
 				<div class="logo">
-					<a class ="navbar-barnd" href="#"> <img src="img/logo-c.png" height="40" width="40"></a>
+					<a class ="navbar-brand" href="#"> <img src="img/logo-c.png" height="40" width="40"></a>
 				</div>				
 				<input type="checkbox" id="nav" class="hidden">
-				<label for="nav" class="nav-btn" tabindex="0" aria-label="Click Me to expand Navigation">
+				<label for="nav" type="button" class="nav-btn" tabindex="0" aria-label="Click Me to expand Navigation">
 					<i></i>
 					<i></i>
 					<i></i>
 				</label>
 				<div class="nav-wrapper">
 					<ul>
-						<li><a class="nav-link page-scroll" href="#about">About Us</a></li>
+						<li><a class="nav-link page-scroll" href="#about" tabindex="0" aria-label="Click Me to expand Navigation">About Us</a></li>
 						<li><a class="nav-link page-scroll"href="https://saucedao.gitbook.io/sauce-dao/" target="_blank">Docs</a></li>
                         <li><a class="nav-link page-scroll" href="#resources">Resources</a></li>
-						<li><a class="saucedao3 button text-cream inline" data-modal="js-toggle-modal" type="button">Launch App</a></li>
-                       
-						
+						<li><a class="saucedao3 button text-cream inline" data-modal="js-toggle-modal" type="button">Launch App</a></li>	
 					</ul>
 				</div>
 			</nav>
 		</div>
     </div>
+    <script>//nav
+        var KEYCODE_ENTER = 13;
+        var KEYCODE_ESC = 27;
+
+
+$('.nav-btn').bind('keyup', function(e) {
+    if(e.which== KEYCODE_ENTER){
+        $('#nav').prop('checked', true);
+    }
+    if(e.which== KEYCODE_ESC){
+        $('#nav').prop('checked', false);
+        $(this).focus(); // Sets the focus back to the button location
+    }    
+});
+
+
+    </script>
+
+    <script>//close nav when link is clicked
+        const ul = document.getElementsByTagName('ul')[0];
+ul.addEventListener('click', () => {
+  const data = document.getElementById('nav');
+  data.checked = false
+})
+    </script>
+
    
         <!--MODAL-->
         <section class="modal">
@@ -665,21 +689,7 @@ $(document).on("click", e => {
 });
 
     </script>
-     <script>//nav
-        var KEYCODE_ENTER = 13;
-var KEYCODE_ESC = 27;
-
-
-$('.nav-btn').bind('keyup', function(e) {
-    if(e.which== KEYCODE_ENTER){
-        $('#nav').prop('checked', true);
-    }
-    if(e.which== KEYCODE_ESC){
-        $('#nav').prop('checked', false);
-        $(this).focus(); // Sets the focus back to the button location
-    }    
-});
-    </script>
+     
     
 </body>
 </html>

@@ -21,6 +21,7 @@ html {
   text-size-adjust: 100%;
   max-width: 100%;
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
   
 }
 body {
@@ -35,7 +36,9 @@ body {
   color: #000000;
   text-align: left;
   background-color: #220f06;
-  
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+  overflow-x: hidden;
   
 }
 
@@ -1149,6 +1152,7 @@ a:not([href]):not([tabindex]):focus {
   position: absolute;
   left: 0;
   right: 0;
+  overflow-x: none;
   
      
 }
@@ -1445,42 +1449,8 @@ a:not([href]):not([tabindex]):focus {
 
 /*end*/
 
-/*gradient drip divider*/
-
-/*header*/
-@-webkit-keyframes droplet {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    height: 30px;
-    width: 30px;
-  }
-  100% {
-    transform: translate(0, 700px);
-  }
-}
-@keyframes droplet {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    height: 30px;
-    width: 30px;
-  }
-  100% {
-    transform: translate(0, 700px);
-  }
-}
-
-/*end*/
 
 
-/*features boxes*/
-  
-  /*features-list */
-  
-  
 
 /* FOOTER */
 

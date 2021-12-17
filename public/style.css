@@ -52,9 +52,8 @@ html {
   -moz-text-size-adjust: 100%;
   text-size-adjust: 100%;
   max-width: 100%;
-  overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
-  overflow: overlay;
+  overflow: scroll;
   
 }
 body {
@@ -1188,6 +1187,7 @@ a:not([href]):not([tabindex]):focus {
   position: absolute;
   left: 0;
   right: 0;
+  overflow-x: hidden;
 }
 
  
@@ -1259,7 +1259,7 @@ a:not([href]):not([tabindex]):focus {
   animation: 0.4s linear pop-up-modal;
 }
 
-@-webkit-keyframes pop-up-modal {
+@keyframes pop-up-modal {
   0% {
     transform: scale(0);
   }

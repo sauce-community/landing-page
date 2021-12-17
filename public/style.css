@@ -59,7 +59,7 @@ html {
 body {
   line-height: 1;
   height: 100%;
-  overflow: hidden;
+  overflow: scroll;
   margin: 0;
   font-family: var(--font-family);
   font-size: 1rem;
@@ -70,6 +70,7 @@ body {
   background-color: #220f06;
   -webkit-overflow-scrolling: touch;
   max-width: 100%;
+  overflow-x: 
   
   
 }
@@ -1186,12 +1187,14 @@ a:not([href]):not([tabindex]):focus {
   position: absolute;
   left: 0;
   right: 0;
+  
 }
 
- 
-
-
-
+@media (max-width: 676px) {
+  #sauce {
+    display: none;
+  } 
+}
 
 /* Box shadow */
 

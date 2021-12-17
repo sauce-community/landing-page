@@ -70,7 +70,7 @@ body {
   background-color: #220f06;
   -webkit-overflow-scrolling: touch;
   max-width: 100%;
-  overflow-x: hidden;
+  
   
 }
 
@@ -103,7 +103,6 @@ h1,h2 {
 .isoheader.saucedao2 {
   height: 100vh;
   position: relative;
- 
   min-height: 900px;
   overflow: hidden;
 }
@@ -1187,7 +1186,6 @@ a:not([href]):not([tabindex]):focus {
   position: absolute;
   left: 0;
   right: 0;
-  overflow-x: hidden;
 }
 
  

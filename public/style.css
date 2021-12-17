@@ -7,6 +7,38 @@
   vertical-align: baseline;
 }
 
+/*                                                                             
+       ,,                    ,,                            ,,                 
+     `7MM                    db                           *MM                 
+       MM                                                  MM                 
+  ,M""bMM  .gP"Ya  ,pP"Ybd `7MM  .P"Ybmmm `7MMpMMMb.       MM,dMMb.`7M'   `MF'
+,AP    MM ,M'   Yb 8I   `"   MM :MI  I8     MM    MM       MM    `Mb VA   ,V  
+8MI    MM 8M"""""" `YMMMa.   MM  WmmmP"     MM    MM       MM     M8  VA ,V   
+`Mb    MM YM.    , L.   I8   MM 8M          MM    MM       MM.   ,M9   VVV    
+ `Wbmd"MML.`Mbmmd' M9mmmP' .JMML.YMMMMMb  .JMML  JMML.     P^YbmdP'    ,V     
+    ,... ,,                     6'     dP                             ,V      
+  .d' "`7MM                     Ybmmmd'                            OOb"       
+  dM`    MM                                                                   
+ mMMmm   MM  ,pW"Wq.   ,pW"Wq.`7Mb,od8 .gP"Ya `7M'   `MF'.gP"Ya  ,pP"Ybd      
+  MM     MM 6W'   `Wb 6W'   `Wb MM' "',M'   Yb  VA   ,V ,M'   Yb 8I   `"      
+  MM     MM 8M     M8 8M     M8 MM    8M""""""   VA ,V  8M"""""" `YMMMa.      
+  MM     MM YA.   ,A9 YA.   ,A9 MM    YM.    ,    VVV   YM.    , L.   I8      
+.JMML. .JMML.`Ybmd9'   `Ybmd9'.JMML.   `Mbmmd'    ,V     `Mbmmd' M9mmmP'      
+                                                 ,V                           
+                                              OOb"                          */
+
+:root {
+  --hot: #db5809;
+  --soy: #220f06;
+  --cream: #ffefd5;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family:'Inter',sans-serif;
+}
+
 
 
 html {
@@ -364,38 +396,6 @@ p.saucedao{
   opacity: 1;
    font-weight: 600;
   color:var(--soy);
-}
-
-/*                                                                             
-       ,,                    ,,                            ,,                 
-     `7MM                    db                           *MM                 
-       MM                                                  MM                 
-  ,M""bMM  .gP"Ya  ,pP"Ybd `7MM  .P"Ybmmm `7MMpMMMb.       MM,dMMb.`7M'   `MF'
-,AP    MM ,M'   Yb 8I   `"   MM :MI  I8     MM    MM       MM    `Mb VA   ,V  
-8MI    MM 8M"""""" `YMMMa.   MM  WmmmP"     MM    MM       MM     M8  VA ,V   
-`Mb    MM YM.    , L.   I8   MM 8M          MM    MM       MM.   ,M9   VVV    
- `Wbmd"MML.`Mbmmd' M9mmmP' .JMML.YMMMMMb  .JMML  JMML.     P^YbmdP'    ,V     
-    ,... ,,                     6'     dP                             ,V      
-  .d' "`7MM                     Ybmmmd'                            OOb"       
-  dM`    MM                                                                   
- mMMmm   MM  ,pW"Wq.   ,pW"Wq.`7Mb,od8 .gP"Ya `7M'   `MF'.gP"Ya  ,pP"Ybd      
-  MM     MM 6W'   `Wb 6W'   `Wb MM' "',M'   Yb  VA   ,V ,M'   Yb 8I   `"      
-  MM     MM 8M     M8 8M     M8 MM    8M""""""   VA ,V  8M"""""" `YMMMa.      
-  MM     MM YA.   ,A9 YA.   ,A9 MM    YM.    ,    VVV   YM.    , L.   I8      
-.JMML. .JMML.`Ybmd9'   `Ybmd9'.JMML.   `Mbmmd'    ,V     `Mbmmd' M9mmmP'      
-                                                 ,V                           
-                                              OOb"                          */
-
-:root {
-  --hot: #db5809;
-  --soy: #220f06;
-  --cream: #ffefd5;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family:'Inter',sans-serif;
 }
 
 *,

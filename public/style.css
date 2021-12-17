@@ -1190,11 +1190,7 @@ a:not([href]):not([tabindex]):focus {
   
 }
 
-@media (max-width: 676px) {
-  #sauce {
-    display: none;
-  } 
-}
+
 
 /* Box shadow */
 

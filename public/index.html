@@ -26,7 +26,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Sauce DAO</title>
     <meta name="description"
-        content="sauceDAO is a decentralized networking and funding framework for startups, open source projects, and communities." />
+        content="Sauce DAO is a decentralized networking and funding framework for startups, open source projects, and communities." />
     <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <link rel="stylesheet" href="style.css" id="theme-color">
@@ -36,42 +36,32 @@
 
 <body>
     <!--navigation-->
+    <div class="smart-scroll">
+        <div class="container">
+			<nav>
+				<div class="logo">
+					<a class ="navbar-barnd" href="#"> <img src="img/logo-c.png" height="50" width="50"></a>
+				</div>				
+				<input type="checkbox" id="nav" class="hidden">
+				<label for="nav" class="nav-btn" tabindex="0" aria-label="Click Me to expand Navigation">
+					<i></i>
+					<i></i>
+					<i></i>
+				</label>
+				<div class="nav-wrapper">
+					<ul>
+						<li><a class="nav-link page-scroll" href="#about">About Us</a></li>
+						<li><a class="nav-link page-scroll"href="https://saucedao.gitbook.io/sauce-dao/" target="_blank">Docs</a></li>
+                        <li><a class="nav-link page-scroll" href="#resources">Resources</a></li>
+						<li><a class="saucedao3 button text-cream inline" data-modal="js-toggle-modal" type="button">Launch App</a></li>
+                       
+						
+					</ul>
+				</div>
+			</nav>
+		</div>
+    </div>
    
-        
-          
-          
-        <div class="smart-scroll">
-            <div class="container">
-                <nav class="navbar navbar-expand-md navbar-dark">
-                    <a class="navbar-brand text-cream" href="index.html">
-                        <img src="img/logo-c.png" height="40" width="40">
-                        
-                    </a>
-                    <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
-                        data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span data-feather="grid"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link page-scroll" href="#about">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link page-scroll"href="https://saucedao.gitbook.io/sauce-dao/" target="_blank">Docs</a>
-                            </li>
-                            <li class="nav-item">
-                                <a data-modal="js-toggle-modal" type="button" class="nav-link page-scroll d-flex flex-row align-items-center " >
-                                    <em data-feather="layout" width="18" height="18" class="mr-2"></em>
-                                Launch App
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-
         <!--MODAL-->
         <section class="modal">
             <div class="modal-content">
@@ -103,30 +93,16 @@
             <div class="saucedao2 isoheader">
                 <div class="react-reveal saucedao2 majortextwrapper">
                   <div class="saucedao2 majortext">
-                      <div id="checkoutbar" class="saucedao2 checkoutbar" >
-                        <p
-                          style="
-                            margin: 0;
-                            font-size: 14px;
-                            display: inline-block;
-                            
-                            opacity: 1;
-                            font-weight: 600;
-                            color:var(--dark);
-                          "
-                          class="saucedao p"
-                        >
-                        You're here early!<span
-                            style="font-weight: 300"
-                            class="saucedao2"
-                          >
-                            
-                          Our app is still under development.  Stay updated or get involved in one of our community channels.</span
-                          >
-                        </p>
-                        <i class="fas fa-arrow-right"></i>
-                      </div>
-                    
+                    <a href="https://discord.gg/wZkdf8X6DV" target="_blank">
+                        <div id="checkoutbar" class="saucedao2 checkoutbar" >
+                            <p id="early"class="saucedao p text-dark">
+                                    You're here early!
+                                <span style="font-weight: 300" class="saucedao2">   
+                                Our app is still under development.  Stay updated or get involved in one of our community channels.</span>
+                            </p>
+                            <i class="fas fa-arrow-right text-dark"></i>
+                        </div>
+                    </a>
                     <h1 class="saucedao text-cream h1 big">Human, Social & Financial Capital</h1>
                     <h3 style="margin-bottom: 20px" class="saucedao text-red h3">
                       ...For the People, By the People.
@@ -240,21 +216,29 @@
     <section>
         <div class="container">
             <div class="col-md-12 mx-auto">
-                 <!--incubator-->   
-                <div class=" row mt-5 mb-5 "> 
-                    <div class="col-md-9 box">                            
-                        <h5 class="text-red saucedao big mt-4"> A Decentralized Incubator </h5>
-                        <h2 class="saucedao h2 text-cream"> We crowdsource good ideas.</h2>
-                        <div class="col-md-7">
-                            <p class="text-cream p saucedao">We leverage our community to 
-                                approach the problem of incentivizing collaborative funding and development to help pre-seed ventures reach their milestones.
-                            </p>
-                        </div>   
-                    </div>
-                    <div class="col-md-3 mt-4  ">
-                        <i style="color: #db5809; font-size: 20em;" class="fas fa-lightbulb no-mobile"></i>
-                    </div>
-                </div>    
+                 <!--incubator-->  
+                <div class="col-md-12 mx-auto"> 
+                    <div class=" row mt-3 mb-5 "> 
+                        
+                        <div class="col-md-12 box">                            
+                            <h5 class="text-red saucedao big  mt-4" >
+                                A Decentralized Incubator</h5>
+                        </div>
+                        <div class="col-md-23 row mx-auto">       
+                                <div class="col-md-9">
+                                    <h2 class="saucedao h2 text-cream"> We crowdsource good ideas.</h2> 
+                                    <div class="col-md-7 mt-4 ">
+                                        <p class="text-cream p saucedao">We leverage our community to 
+                                            approach the problem of incentivizing collaborative funding and development to help pre-seed ventures reach their milestones.
+                                        </p>
+                                    </div>  
+                                </div>
+                                <div class="col-md-3 mt-5">
+                                    <i style="color: #db5809; font-size: 15em;" class="fas fa-lightbulb no-mobile"></i>
+                                </div>
+                        </div>     
+                    </div>        
+                </div>             
                 <!--accelerator-->
                 <div class="col-md-12 mx-auto"> 
                     <div class=" row mt-3 mb-5 "> 
@@ -358,7 +342,7 @@
 </section>
 
   <!--action-->
-  <section class="pb-5" >
+  <section class="pb-5" id="resources">
     <div class="container mt-5">
         <!--Developers--> 
         <div class=" col-md-12">
@@ -455,30 +439,22 @@
             <div class="col-md-8 mx-auto">
                 <div class="card2-deck ">
                     <div class="card2">
-                        <div class="card2-body row">
-                            <div class="col-md-8">
-                               
-                                <h2 class="card2-title text-dark saucedao mb-2 ">SAUCE Token</h2>
-                                
-                                <h6 class=" mt-5 col-md-9  text-dark">Our governance token gives our community the ability to propose or vote on internal measures and platform changes.</h6>    
-                            </div>  
-                            <div class="row-md-3 mt-5">
-                                <a href="#" class="saucedao3 button" data-modal="js-toggle-modal" type="button">
-                                    Buy (SAUCE)
-                                </a> 
-                            </div>                     
+                        <div class="card2-body" id="school">
+                            <i style="color: #220f06;font-size: 3em;" class="fas fa-balance-scale"></i>
+                            <h2 class="card2-title text-dark  saucedao">Sauce Token</h2>
+                            <h6 class="text-dark saucedao ">We put Power in the hands of our community members. Our governance token allows holders to steer the direction of the platform, and decide what projects we incubate.</h6>
+                            <button class="saucedao3 button text-cream inline" data-modal="js-toggle-modal" type="button" >Buy SAUCE</button>
+                           
                         </div>
-                    </div>    
+                    </div>
+
+
+                   
                 </div>
             </div>    
         </div>    
     </div>
 </section>
-
-
-    
-
-
 
     <!--footer-->
     <footer class="bg-cream">
@@ -689,5 +665,21 @@ $(document).on("click", e => {
 });
 
     </script>
+     <script>//nav
+        var KEYCODE_ENTER = 13;
+var KEYCODE_ESC = 27;
+
+
+$('.nav-btn').bind('keyup', function(e) {
+    if(e.which== KEYCODE_ENTER){
+        $('#nav').prop('checked', true);
+    }
+    if(e.which== KEYCODE_ESC){
+        $('#nav').prop('checked', false);
+        $(this).focus(); // Sets the focus back to the button location
+    }    
+});
+    </script>
+    
 </body>
 </html>

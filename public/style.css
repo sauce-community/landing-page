@@ -22,12 +22,13 @@ html {
   max-width: 100%;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
+  overflow: overlay;
   
 }
 body {
   line-height: 1;
   height: 100%;
-  overflow: overlay;
+  overflow: hidden;
   margin: 0;
   font-family: var(--font-family);
   font-size: 1rem;
@@ -1152,9 +1153,6 @@ a:not([href]):not([tabindex]):focus {
   position: absolute;
   left: 0;
   right: 0;
-  overflow-x: none;
-  
-     
 }
 
  

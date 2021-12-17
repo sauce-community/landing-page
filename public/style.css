@@ -69,10 +69,12 @@ body {
   text-align: left;
   background-color: #220f06;
   -webkit-overflow-scrolling: touch;
+  max-width: 100%; 
+}
+
+html, body {
   max-width: 100%;
-  overflow-x: 
-  
-  
+  overflow-x: hidden;
 }
 
 ::selection {
@@ -1187,7 +1189,7 @@ a:not([href]):not([tabindex]):focus {
   position: absolute;
   left: 0;
   right: 0;
-  
+
 }
 
 

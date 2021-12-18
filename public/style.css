@@ -1710,6 +1710,19 @@ textarea::-webkit-input-placeholder {
   }
 }
 
+/*show on mobile*/
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 876px) {
+  .mobile {
+    display: block;
+    margin-bottom: .3em;
+  }
+}
+
 /*Center on mobile*/
 
 @media (max-width: 768px) {

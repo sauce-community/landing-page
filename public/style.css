@@ -73,7 +73,11 @@ html, body {
   -webkit-overflow-scrolling: touch;
  
 }
+#about {
+  background-image: url("img/drip.png");
+  background-repeat: repeat-x;
 
+}
 ::selection {
   background-color: rgba(71,77,255,0.99);
   color: white;

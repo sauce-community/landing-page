@@ -64,15 +64,12 @@ body {
   color: #000000;
   text-align: left;
   background-color: #220f06;
-}
-
-html, body {
   max-width: 100%;
   overflow-x: hidden;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
- 
 }
+
 #about {
   background-image: url("img/drip.png");
   background-repeat: repeat-x;

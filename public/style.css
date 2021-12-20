@@ -179,7 +179,7 @@ img#3m.saucedao2 {
 }
 @media only screen and (max-width: 768px) {
   .majortext.saucedao2 {
-    z-index: 2;
+    z-index: 1;
     padding: 20px;
   }
   .majortextwrapper.saucedao2 {
@@ -836,10 +836,12 @@ a:not([href]):not([tabindex]):focus {
         left: 0;
         width: 100vw;
         height:  100vh;
-        z-index: -1;
+        z-index: 0;
         background-color: var(--hot);
         opacity: 0;
         transition: all 0.2s ease;
+        pointer-events:none;
+       
       }
     
       .nav-wrapper ul {
@@ -858,6 +860,7 @@ a:not([href]):not([tabindex]):focus {
         text-align: right;
         
       }
+
 
       
       
@@ -903,7 +906,7 @@ a:not([href]):not([tabindex]):focus {
         width: 48px;
         height: 48px;
         cursor: pointer;
-        z-index: 10;
+        z-index: 4;
         border-radius: 50%;
       }
     
@@ -951,7 +954,9 @@ a:not([href]):not([tabindex]):focus {
     
       #nav:checked ~ .nav-wrapper{
         opacity: 1;
-        z-index: 9;
+        z-index: 3;
+        pointer-events: all;
+
       }
     
       #nav:checked ~ .nav-wrapper ul li a{
@@ -1005,7 +1010,7 @@ a:not([href]):not([tabindex]):focus {
       .smart-scroll {
         position: fixed;
         top: 0;
-        z-index: 1020;
+        z-index: 7;
         width: 100%;
         transition: all .3s ease-out; }
         .smart-scroll.scrolling {
@@ -1209,7 +1214,7 @@ a:not([href]):not([tabindex]):focus {
   width: 100vw;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 10000;
+  z-index: 8;
 }
 .modal.is-open .modal-content {
   background-color: #ffefd5;
@@ -1220,7 +1225,7 @@ a:not([href]):not([tabindex]):focus {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   text-align: center;
-  z-index: 101;
+  z-index: 6;
   -webkit-animation: 0.4s linear pop-up-modal;
   animation: 0.4s linear pop-up-modal;
 }
@@ -1240,7 +1245,7 @@ a:not([href]):not([tabindex]):focus {
   width: 100vw;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 100;
+  z-index: 5;
 }
 .tknmodal.is-open .tknmodal-content {
   background-color: #ffefd5;
@@ -1251,7 +1256,7 @@ a:not([href]):not([tabindex]):focus {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   text-align: center;
-  z-index: 101;
+  z-index: 6;
   -webkit-animation: 0.4s linear pop-up-modal;
   animation: 0.4s linear pop-up-modal;
 }
@@ -1271,13 +1276,12 @@ a:not([href]):not([tabindex]):focus {
   }
 }
 
-
 /*drip divider left*/
 .sauce {
   height: 40px;
   background: #220f06;
   position: relative;
-  z-index: 100;
+  z-index: 5;
 }
 .sauce .drip {
   position: absolute;
@@ -1328,7 +1332,7 @@ a:not([href]):not([tabindex]):focus {
   width: 20px;
   height: 35px;
   border-radius: 50%;
-  z-index: 3;
+  z-index: 2;
   background: #220f06;
   transition: all 0.4s ease;
 }
@@ -1416,7 +1420,7 @@ a:not([href]):not([tabindex]):focus {
   width: 20px;
   height: 35px;
   border-radius: 50%;
-  z-index: 3;
+  z-index: 2;
   background: #220f06;
   transition: all 0.4s ease;
 }
@@ -1547,7 +1551,7 @@ footer ul > li {
   position: fixed;
   text-align: center;
   width: 40px;
-  z-index: 10;
+  z-index: 4;
   cursor: pointer;
   transition: .3s;
   border-radius: 50%;
@@ -1586,7 +1590,7 @@ footer ul > li {
   align-items: center;
   justify-content: center;
   position: relative;
-  z-index: 10;
+  z-index: 4;
   
 }
 .form-wrapper .form {

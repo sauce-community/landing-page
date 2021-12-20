@@ -840,6 +840,7 @@ a:not([href]):not([tabindex]):focus {
         background-color: var(--hot);
         opacity: 0;
         transition: all 0.2s ease;
+        pointer-events: none;
       }
     
       .nav-wrapper ul {
@@ -952,6 +953,7 @@ a:not([href]):not([tabindex]):focus {
       #nav:checked ~ .nav-wrapper{
         opacity: 1;
         z-index: 9;
+        pointer-events: all;
       }
     
       #nav:checked ~ .nav-wrapper ul li a{
@@ -973,34 +975,7 @@ a:not([href]):not([tabindex]):focus {
       line-height: inherit;
       white-space: nowrap;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
+     
       /*smart scrolling*/
       .smart-scroll {
         position: fixed;

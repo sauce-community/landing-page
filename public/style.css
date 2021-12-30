@@ -133,7 +133,15 @@ h1,h2 {
 
 @media (max-width: 1200px) {
   #checkoutbar {
-    display: none;
+    margin-top: 20vh;
+    max-width:450px;
+  }
+}
+
+@media (max-width: 768px) {
+  #checkoutbar {
+    margin-top: 5vh;
+    max-width:500px;
   }
 }
 
@@ -162,7 +170,7 @@ h1,h2 {
   box-sizing: border-box;
   padding: 80px;
 }
-img#3m.saucedao2 {
+img.saucedao2 {
   height: 56px;
 }
 
@@ -784,8 +792,61 @@ a:not([href]):not([tabindex]):focus {
       float: left;
       padding: 8px;
       margin-left: 16px;
-      margin-top: 15px;
+      margin-top: 10px;
+      
     }
+
+    .brand {
+      position: relative;
+      display: inline-block;
+      
+      padding-bottom: 0.0625rem;
+      margin-right: 1.25rem;
+      font-size: 1.25rem;
+      line-height: inherit;
+      white-space: nowrap;
+      
+    }
+
+    .brand img.logo-hover {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      object-fit: contain;
+      opacity: 0;
+      transition: opacity .1s;
+      -webkit-transition: opacity .1s;
+      -moz-transition: opacity .1s;
+      -ms-transition: opacity .1s;
+      -o-transition: opacity .1s;
+}
+    .brand:hover img.logo-hover {
+      opacity: 1;
+    }
+
+    .brand img.logo-main {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      object-fit: contain;
+      opacity: 1;
+      transition: opacity .1s;
+      -webkit-transition: opacity .1s;
+      -moz-transition: opacity .1s;
+      -ms-transition: opacity .1s;
+      -o-transition: opacity .1s;
+}
+    .brand:hover img.logo-main {
+      opacity: 0;
+    }
+
+
+
+
       
     
     
@@ -966,16 +1027,6 @@ a:not([href]):not([tabindex]):focus {
       }
     }
 
-    .navbar-brand {
-      display: inline-block;
-      padding-top: 0.0625rem;
-      padding-bottom: 0.0625rem;
-      margin-right: 1.25rem;
-      font-size: 1.25rem;
-      line-height: inherit;
-      white-space: nowrap;
-    }
-     
       /*smart scrolling*/
       .smart-scroll {
         position: fixed;

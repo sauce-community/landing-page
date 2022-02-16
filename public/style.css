@@ -31,12 +31,13 @@
   --hot: #db5809;
   --soy: #220f06;
   --cream: #ffefd5;
+  --sauce: #ff9d2f;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family:'Inter',sans-serif;
+  --font-family: 'OpenSauceTwoRegular','Inter',sans-serif;
 }
 
 
@@ -99,7 +100,7 @@ ul {
 
 
 h1,h2 {
-  font-weight: 600;
+  font-family: 'OpenSauceTwoBlack';
 }
 .isoheader.saucedao2 {
   height: 100vh;
@@ -198,6 +199,63 @@ img.saucedao2 {
   }
 }
 
+
+/* nft hero ad */
+.majorwrapper.saucedao2 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+}
+
+.majorimage.saucedao2 {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  max-width: 780px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  box-sizing: border-box;
+  padding: 80px;
+}
+
+
+
+.nft{
+  height: 400px;
+  width: 300px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.glass-card {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1000000;
+  width: 300px;
+  height: 400px;
+  padding:0px;
+  border-radius: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 20px 20px 50px #100703;
+  overflow: hidden;
+  margin: 10px;
+  transform-style: preserve-3d;
+  right: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 p.saucedao {
   color: #fff;
   margin: 0 auto;
@@ -216,6 +274,8 @@ h1.saucedao {
   -moz-letter-spacing: -2px;
   -ms-letter-spacing: -2px;
   letter-spacing: -2px;
+  font-family: 'OpenSauceTwoBold';
+  
 }
 
 h2.saucedao {
@@ -259,7 +319,11 @@ h5.saucedao {
   letter-spacing: -6px;
   position: relative;
   margin-bottom: 20px;
-  line-height: 0.9;
+  line-height: .95;
+  font-weight:bold;
+  font-family: 'OpenSauceTwoBlack';
+  text-shadow: 5px 4px 11px rgb(0,0,0), 0 2px 5px rgb(0,0,0);
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -323,6 +387,7 @@ h5.saucedao {
 
   h2.saucedao {
       font-size: 36px;
+      font-family: 'OpenSauceTwoBold';
   }
 }
 
@@ -1075,11 +1140,20 @@ a:not([href]):not([tabindex]):focus {
   -moz-border-radius: 3rem;
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
-  
+  box-shadow: 20px 20px 50px ;
+  transform-style: preserve-3d
 }
 
 .card-title {
   margin-bottom: 0.75rem;
+  transform: translateZ(20px);
+  -webkit-transform: translateZ(20px);
+  -moz-transform: translateZ(20px);
+  -ms-transform: translateZ(20px);
+  -o-transform: translateZ(20px);
+  
+  
+  
 }
 
 .card-deck {
@@ -1672,18 +1746,23 @@ textarea {
   font-size: 18px;
   font-weight: 300;
   border: solid 5px rgba(0, 0, 0, 0.3);
-  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 20px 20px 50px #100703;
   background: transparent;
   outline: none;
   user-select: none;
   margin-bottom: 30px;
   color: #fff;
   height: auto;
-  border-radius: 50px;
+  border-radius: 20px;
+  resize:vertical;
+  overflow: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 input{
-
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 100%;
     box-sizing: border-box;
@@ -1694,15 +1773,18 @@ input{
     font-size: 18px;
     font-weight: 300;
     border: solid 5px rgba(0, 0, 0, 0.3);
-    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 20px 20px 50px #100703;
     background: transparent;
     outline: none;
     user-select: none;
     margin-bottom: 30px;
     color: #fff;
     height: auto;
-    border-radius: 50px;
-  
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 textarea:focus {
   border-color: rgba(0, 0, 0, 0.3);
